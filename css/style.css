@@ -1,0 +1,140 @@
+body{
+  background-color:#DFD6C7;
+}
+nav{
+  background-color: wheat;
+  text-align: left;
+  text-decoration: dotted;
+  text-shadow: 40cqb;
+  line-height: 10cap;
+}
+
+#logo{
+  height: 100px;
+  width: 100px;
+  text-align: left;
+}
+
+#cart{
+}
+
+#cart1{
+}
+
+hr{
+  color:#DFD6C7;
+  width: 100%;
+  height: 10px;
+  background-color:black;
+  border:0ch;
+  transform-style: preserve-3d;
+}
+
+.gh{
+  width: 100%;
+  height: 50x;
+  background-color: black;
+  text-align: center;
+  color: brown;
+}
+
+#down{
+  background-color: black;
+  color: brown;
+  height: 40px;
+  text-align:center;
+}
+
+#main{
+display: flex;
+}
+
+
+#search{
+  text-align: center;
+}
+
+#seprate{
+  background-color: wheat;
+  height: 40px;
+  
+}
+
+#text{
+  word-spacing: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+#search1{
+  background-color: wheat;
+}
+
+#about{
+display: flex;
+background: none;
+width: 100%;
+}
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+#imageselection{
+}
+
+#textselection{
+}
+#imgpng{
+  width: 110%;
+  height: 95%;
+}
+#abtpng{
+  width: 100%;
+  height: 100%;
+
+}
+
+nav{
+    width: 100%;
+    height:50px;
+    background-color: bisque;
+    z-index:1;
+    text-emphasis: red;
+    line-height: 5cap;
+    text-align: center;
+}
+nav ul li{
+  display: inline;
+  padding: 15px 25px;
+  margin: 13px;
+  background-color: grey;
+  border-radius: 10px;
+}
+nav ul li:hover{
+  background-color: red;
+  transition: 2s;
+  color: black;
+}
+nav ul li a{
+  text-decoration: none;
+  font-size: 20px;
+  color: aliceblue;
+  line-height: 40px;
+}
+#cart button:hover{
+  background-color: red;
+  transition: 2s;
+  color: black;
+  border-radius: 10px;
+  border-color: black;
+  text-decoration: none;
+  font-size: 20px;
+  color: aliceblue;
+  line-height: 40px;
+}
+.LOGIN{
+  text-align: right;
+  line-height: 9cap;
+  background-color:#DFD6C7;
+}

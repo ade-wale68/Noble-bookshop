@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+}
+nav{
+    width:auto;
+    height: auto;   
+    background-color: wheat;
+    z-index:1;
+    text-emphasis: red;
+    line-height: 5cap;
+}
+nav ul li{
+    display: inline;
+    padding: 15px 25px;
+    margin: 13px;
+    background-color: grey;
+    border-radius: 10px;
+}
+nav ul li:hover{
+    background-color: red;
+    transition: 2s;
+    color: black;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: aliceblue;
+    line-height: 40px;
+}
+.mother{
+    width: 100%;
+    float: left;
+}
+.bg-landing{
+    width: 100%;
+    height: 80vh;
+    background-image: url(/images/d.jpg);
+    background-size: cover;
+    overflow: hidden;
+    background-position: center;
+}
+
+.box1{
+    background-color: rgb(226, 149, 7);
+    height: 250px;
+    width: 100%;
+    border-radius: 30px;
+    margin: 18px;
+    padding: 15px 25px;
+    text-align: center;
+    /* line-height: 5cap; */
+    text-shadow: 2cap;
+    
+}
+h3{
+    line-height: 5cap;
+    text-underline-position: below;
+}
+.box1:hover{
+    background-color: bisque;
+    box-shadow: 10px 10px  wheat;
+    transition: 2s;
+}
+
+.col-1{
+    position: relative;
+    float: left;
+    width: calc(1 * 8.33%)
+}
+.col-2{
+    position: relative;
+    float: left;
+    width: calc(2 * 8.33%)
+}
+.col-3{
+    position: relative;
+    float: left;
+    width: calc(3 * 8.33%)
+}
+.col-4{
+    position: relative;
+    float: left;
+    width: calc(4 * 8.33%)
+}
+.col-5{
+    position: relative;
+    float: left;
+    width: calc(5 * 8.33%)
+}
+.col-6{
+    position: relative;
+    float: left;
+    width: calc(6 * 8.33%)
+}
+.col-7{
+    position: relative;
+    float: left;
+    width: calc(7 * 8.33%)
+}
+.col-8{
+    position: relative;
+    float: left;
+    width: calc(8 * 8.33%)
+}
+.col-9{
+    position: relative;
+    float: left;
+    width: calc(9 * 8.33%)
+}
+.col-10{
+    position: relative;
+    float: left;
+    width: calc(10 * 8.33%)
+}
+.col-11{
+    position: relative;
+    float: left;
+    width: calc(11 * 8.33%)
+}
+.col-12{
+    position: relative;
+    float: left;
+    width: calc(12 * 8.33%);
+}
+.off-1{
+    position: relative;
+    margin-left: calc(1 * 8.33%);
+}
+.off-2{
+    position: relative;
+    margin-left: calc(2 * 8.33%);
+}
+.off-3{
+    position: relative;
+    margin-left: calc(3 * 8.33%);
+}
+.off-4{
+    position: relative;
+    margin-left: calc(4 * 8.33%);
+}
+.off-5{
+    position: relative;
+    margin-left: calc(5 * 8.33%);
+}
+.off-6{
+    position: relative;
+    margin-left: calc(6 * 8.33%);
+}
+.off-7{
+    position: relative;
+    margin-left: calc(7 * 8.33%);
+}
+.off-8{
+    position: relative;
+    margin-left: calc(8 * 8.33%);
+}
+.off-9{
+    position: relative;
+    margin-left: calc(9 * 8.33%);
+}
+.off-10{
+    position: relative;
+    margin-left: calc(10 * 8.33%);
+}
+.off-11{
+    position: relative;
+    margin-left: calc(11 * 8.33%);
+}
+.off-12{
+    position: relative;
+    margin-left: calc(12 * 8.33%);
+}
+.down-1{
+    margin-top: 1%;
+}
+.down-5{
+    margin-top: 5%;
+}
+.down-10{
+    margin-top: 10%;
+}
