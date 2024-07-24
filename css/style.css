@@ -1,24 +1,39 @@
-body{
-  background-color:#DFD6C7;
-}
+
 nav{
+  width:auto;
+  height: auto;   
   background-color: wheat;
+  z-index:1;
+  text-emphasis: red;
+  line-height: 5cap;
   text-align: left;
   text-decoration: dotted;
   text-shadow: 40cqb;
   line-height: 10cap;
+}
+nav ul li{
+  display: inline;
+  padding: 15px 25px;
+  margin: 13px;
+  background-color: grey;
+  border-radius: 10px;
+}
+nav ul li:hover{
+  background-color: red;
+  transition: 2s;
+  color: black;
+}
+nav ul li a{
+  text-decoration: none;
+  font-size: 20px;
+  color: aliceblue;
+  line-height: 40px;
 }
 
 #logo{
   height: 100px;
   width: 100px;
   text-align: left;
-}
-
-#cart{
-}
-
-#cart1{
 }
 
 hr{
@@ -74,17 +89,14 @@ display: flex;
 display: flex;
 background: none;
 width: 100%;
+margin: 0 auto;
 }
 *{
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
 }
-#imageselection{
-}
 
-#textselection{
-}
 #imgpng{
   width: 110%;
   height: 95%;
@@ -95,33 +107,20 @@ width: 100%;
 
 }
 
-nav{
-    width: 100%;
-    height:50px;
-    background-color: bisque;
-    z-index:1;
-    text-emphasis: red;
-    line-height: 5cap;
-    text-align: center;
+
+.mother{
+  width: 100%;
+  float: left;
 }
-nav ul li{
-  display: inline;
-  padding: 15px 25px;
-  margin: 13px;
-  background-color: grey;
-  border-radius: 10px;
+.bg-landing{
+  width: 100%;
+  height: 80vh;
+  background-image: url(/images/d.jpg);
+  background-size: cover;
+  overflow: hidden;
+  background-position: center;
 }
-nav ul li:hover{
-  background-color: red;
-  transition: 2s;
-  color: black;
-}
-nav ul li a{
-  text-decoration: none;
-  font-size: 20px;
-  color: aliceblue;
-  line-height: 40px;
-}
+
 #cart button:hover{
   background-color: red;
   transition: 2s;
@@ -137,4 +136,55 @@ nav ul li a{
   text-align: right;
   line-height: 9cap;
   background-color:#DFD6C7;
+}
+
+.myform {
+  background-color: #f7f7f7;
+  padding: 20px;
+  width: 50%;
+  margin: 0 auto;
+  }
+  .myform label {
+  display: block;
+  color: aqua;
+  font-family:'Courier New', Courier, monospace;
+  }
+  .myform input[type="text"],
+  .myform input[type="email"],
+  .myform button[type="submit"],
+  .myform input[type="number"] {
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 100%;
+  border-radius: 20px;
+  }
+  .myform button[type="submit"] {
+  background-color: tomato;
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+  height: 40px;
+  }
+
+.box1{
+    background-color: rgb(226, 149, 7);
+    height: 250px;
+    width: 100%;
+    border-radius: 30px;
+    margin: 18px;
+    padding: 15px 25px;
+    text-align: center;
+    /* line-height: 5cap; */
+    text-shadow: 2cap;
+    
+}
+
+h3{
+  line-height: 5cap;
+  text-underline-position: below;
+}
+.box1:hover{
+  background-color: bisque;
+  box-shadow: 10px 10px  wheat;
+  transition: 2s;
 }
