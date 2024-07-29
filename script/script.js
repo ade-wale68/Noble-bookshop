@@ -1,2 +1,2 @@
-var number
-let name = daniel;
+
+// alert('welcome to noble bookshop please login to continue'); 
